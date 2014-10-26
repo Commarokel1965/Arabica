@@ -1,0 +1,3741 @@
+<streamingInfos>
+	<streaminginfo>
+		<cname>EuroSport German</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/de/22</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sport1</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/de/52</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>ZDF</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/de/19</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>W9</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/21</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>tf1</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/19</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>rts deux</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/2</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>rts un</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/1</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 3</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/10</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 4</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/11</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>D8</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/6</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 5</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/12</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>arte</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/3</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>GULLI</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/14</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>tv5monde</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/20</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>FRANCE 0</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/13</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>France 24 FR</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/9</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CN FR</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/22</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>M6</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/17</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	
+	
+	
+	
+	
+	<streaminginfo>
+		<cname>BBC One</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/uk/5</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>BBC Two</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/uk/6</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>FRANCE 2</cname>
+		<item>
+			<title>iphone-tv</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>(http.*?)"</expres>
+				<page>$doregex[get-unpacked]</page>
+				</regex>
+				<regex>
+				<name>get-unpacked</name>
+				<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+				<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
+
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+				<page>http://en.iphone-tv.eu/stream/fr/8</page>
+				</regex>
+
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sport365</cname>
+		<item>
+			<title>creacast</title>
+			<link>http://max.myfrtv.com/1411/m3u8/1411.m3u8$doregex[get-token]</link>
+			<regex>
+			<name>get-token</name>
+			<expres>(.*)</expres>
+			<page>http://myfrtv.com/channels/new-file/</page>
+			<x-forward>205.236.221.231</x-forward>
+			</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Weo</cname>
+		<item>
+			<title>creacast</title>
+			<link>rtmp://str81.creacast.com:80/weo/high timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TV 5 MONDE</cname>
+		<item>
+			<title>m3u8</title>
+			<link>http://pebbles103-lh.akamaihd.net/i/tv5monde_1@97380/index_400_av-p.m3u8|X-Forwarded-For=195.186.145.47</link> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TV 5 MONDE</cname>
+		<item>
+			<title>m3u8</title>
+			<link>http://uneapple-i.akamaihd.net/hls/live/206412/grupoune_st11@206412/st11_index.m3u8</link> 
+		</item>
+	</streaminginfo>
+	
+	
+
+	<streaminginfo>
+	<cname>FRANCE 2</cname>
+		<item>
+			<title>Low Playtv GEOBLOCKED</title>
+			<link>http://188.165.101.226:80/mobile/_definst_/canal-atlas_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
+			<regex>
+			<name>key</name>
+			<expres>sessionid=([^'"]*)</expres>
+			<page>http://m.playtv.fr/api/channels/france-2/?preset=with_programme%2Cwith_streams</page>
+			<referer></referer>
+			</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 2</cname>
+			<item>
+			<title>High Playtv GEOBLOCKED</title>
+		<link>$doregex[geturl]</link>
+		<regex>
+			<name>geturl</name>
+			<expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+			<page></page>
+		</regex>    
+		<regex>
+			<name>getplayerid</name>
+			<expres>data-alias="france-2" data-playerid="(.*?)"</expres>
+			<page>http://playtv.fr/television/</page>
+		</regex>    
+	</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Ajyal Network</cname>
+		<item>
+			<title>radio</title>
+			<link>http://streamer.mada.ps:8008/AJYAL</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Canal Cinema</cname>
+		<item>
+			<title>halima-live</title>
+			<link>rtmp://halima-live.com:1936/live2 playpath=canal+fr2 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN/2013,0,0,214 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=23&amp;id=33 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Canal plus</cname>
+		<item>
+			<title>en clair</title>
+			<link>rtmp://live-fms.canalplus.fr/live/ playpath=canalplusclair_1500@42246 app=live pageURL=http://www.france24.com/en/aef_player_popup/france24_player swfUrl=http://player.canalplus.fr/site/flash/player.swf live=true timeout=30</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Canal plus</cname>
+		<item>
+			<title>CANAL+</title>
+			<link>http://max.myfrtv.com/8201/m3u8/8201.m3u8$doregex[get-token]</link>
+			<regex>
+			<name>get-token</name>
+			<expres>(.*)</expres>
+			<page>http://myfrtv.com/channels/new-file/</page>
+			<x-forward>205.236.221.231</x-forward>
+			</regex>
+        </item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Canal plus</cname>
+		<item>
+			<title>CANAL+</title>
+			<link>rtmp://195.154.242.124:80/liverepeater playpath=166529 swfUrl=http://cdn.goodcast.pw/players.swf live=1 pageUrl=http://goodcast.me/Abouda token=Fo5_n0w?U.rA6l3-70w47ch timeout=30</link>		
+        </item>
+	</streaminginfo>
+	
+	
+	
+	<streaminginfo>
+		<cname>amgad</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=tT9P86JT4qA</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>ALNADATV</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=h1MdsWJa_vs</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Alsaha2</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=57Ro7cfyLkw</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Alsaha3</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=s4Xe_IGY5_A</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Europe 1</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=53oNvQKP4PA</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>KSA 2</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=Umc7W53azqI</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Ibnothaimeentv</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=l5OiCOK6YbU</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>KSA Doc</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=F_MgfXVY7lM</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>KSA News</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=G5u5dEeIX4c</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Al Rafidain</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=8WVCpMuVhoM</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>RFI</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=IMoROPhO55I</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Melody Drama</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=_cN8Op5KgIs</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Rotana Masriya</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=W1mgo1DKqbI</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Russia Alyaum</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=SrNpdcDyXXA</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Saudia Sport</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=0MzUblPSsSU</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Alekhbaria Syria</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=nuz4euccnxE</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC Drama</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=talUzDl2fSg</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>KSA 1</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=oKVEkDYQrXs</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Syria</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=FFErJAAIX_8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sada Al Balad2</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=L0Xm2aEVg5Q</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sada Al Balad</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=_a71bk5XRtE</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sada AlBalad Drama</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=M-1PeiMAVYY</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Rotana cinema</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=I3zFXLBdzWs</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Al mayaden</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=BYIc3imQYP4</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>sunnah TV</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=XA9hTQpgS-M</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>AlQahera W Elnas</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ahDnepO4RYE</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Toyor Al Janah</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=toslMbh8ar8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Quran TV ksa</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=n1SlD2G8Fws</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Elsharq</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=qRjQuroQdo8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC Extra</cname>
+		<item>
+			<title>youtube</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=-vnvUxy2jUo</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC 2</cname>
+		<item>
+			<title>youtube addon</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=NyoD4UNNGBU</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Alaqsa</cname>
+		<item>
+			<title>youtube addon</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ox3v1AAvZSg</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Toyor Al Janah</cname>
+		<item>
+			<title>youtube 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=toslMbh8ar8</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC 2</cname>
+		<item>
+			<title>youtube 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=OFs8THBMRBU</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC Extra</cname>
+		<item>
+			<title>youtube 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=tfnz_ue-Sko</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC</cname>
+		<item>
+			<title>youtube 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=NyoD4UNNGBU</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Russia Alyaum</cname>
+		<item>
+			<title>youtube 720p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=SrNpdcDyXXA</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Russia Alyaum</cname>
+		<item>
+			<title>youtube 480p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=854x480\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=SrNpdcDyXXA</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Russia Alyaum</cname>
+		<item>
+			<title>youtube 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=SrNpdcDyXXA</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Alaqsa</cname>
+		<item>
+			<title>youtube 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=ox3v1AAvZSg</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>NATIONAL GEO FR</cname>
+		<item>
+			<title>stream4free m3u8</title>
+			<link>http://195.154.188.161/hls/nationalgeo.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>NATIONAL GEO FR</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=nationalgeo swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/national-geographic</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>UNIVERS</cname>
+		<item>
+			<title>stream4free m3u8</title>
+			<link>http://195.154.188.161/hls/univers.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>UNIVERS</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=univers swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/l-univers-et-ses-mysteres</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Finance</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=finance swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/finance-et-mondialisme</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Histoire</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=histoire swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/histoire</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Histoire</cname>
+		<item>
+			<title>stream4free m3u8</title>
+			<link>http://195.154.188.161/hls/histoire.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Science</cname>
+		<item>
+			<title>stream4free m3u8</title>
+			<link>http://195.154.188.161/hls/science.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Science</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=science swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/tv-sciences</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>MAN VS WILD</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=manwild swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/man-vs-wild</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Nature</cname>
+		<item>
+			<title>stream4free m3u8</title>
+			<link>http://195.154.188.161/hls/nature.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Nature</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=nature swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/nature-hd</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TVReplay</cname>
+		<item>
+			<title>stream4free</title>
+			<link>rtmp://195.154.188.161/live playpath=tvreplay swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/tv-replay</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>FRANCE 2</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_france2</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 2</cname>
+		<item>
+			<title>akamaihd</title>
+			<link>http://pebbles101-lh.akamaihd.net/i/france2_1@97347/index_900_av-b.m3u8|X-Forwarded-For=195.186.145.47</link> 
+		</item>
+	</streaminginfo>
+
+
+	<streaminginfo>
+		<cname>FRANCE 0</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_franceo</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 3</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_france3</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 4</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_france4</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 5</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_france5</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>M6</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_m6</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TV 5 MONDE</cname>
+		<item>
+			<title>master</title>
+			<link>http://pebbles103-lh.akamaihd.net/i/tv5monde_1@97380/master.m3u8|X-Forwarded-For=146.159.95.38</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TV 5 MONDE</cname>
+		<item>
+			<title>master</title>
+			<link>rtmp://85.91.143.22/90457/90457.stream timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TV 5 MONDE</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_tv5monde</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>GULLI</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_gulli</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>W9</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_w9</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>D8</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_d8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>D8</cname>
+		<item>
+			<title>en_clair</title>
+			<link>http://hls-live-m1-l3.canal-plus.com/live/hls/d8-clair-v3-sd-andr7/and-sd-clair/index.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>D8</cname>
+		<item>
+			<title>akamaihd</title>
+			<link>plugin://plugin.video.f4mTester/?url=http://hds_live_d8_aka-lh.akamaihd.net/z/d8_hds@182613/manifest.f4m?hdcore=2.11.3&amp;g=RKZVIOALHRKW&amp; als=0,0.1,0,3,0,NaN,0,0,0,97,f,11173574,11173584.2 9,t,u,RKZVIOALHRKW,2.11.3,97&amp;hdcore=2.11.3</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Euronews fr</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_euronews</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Euronews fr</cname>
+		<item>
+			<title>m3u8</title>
+			<link>http://hd1.lsops.net/live/euronews_fr_340/hasbahca.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>rts un</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_rtsun</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>rts deux</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_rtsdeux</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>ITV 1</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=en_itv1</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>BBC One</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=en_bbcone</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>BBC Two</cname>
+		<item>
+			<title>maiyo</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=en_bbctwo</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>BBC Two</cname>
+		<item>
+			<title>giniko</title>
+			<link>$doregex[url]</link>
+				<regex>
+				<name>url</name>
+				<expres>file: "([^"]*)</expres>
+				<page>http://giniko.com/watch.php?id=190</page>
+				</regex>
+				</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>M6</cname>
+		<item>
+			<title>sfr</title>
+			<link>https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_hls_aes/m6_hls_aes_856.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>W9</cname>
+		<item>
+			<title>sfr</title>
+			<link>https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/w9_hls_aes/w9_hls_aes_856.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>M6</cname>
+		<item>
+			<title>assimilator</title>
+			<link>http://hls1.maiyo-tv.com/index.m3u8?c=fr_m6</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>BFMTV</cname>
+		<item>
+			<title>myfrtv</title>
+			<link>http://max.myfrtv.com/12170/m3u8/12170.m3u8$doregex[get-token]</link> 
+				<regex>
+				<name>get-token</name>
+				<expres>(.*)</expres>
+				<page>http://myfrtv.com/channels/new-file/</page>
+				<x-forward>205.236.221.231</x-forward>
+				</regex>
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>I-Tele</cname>
+	<item>
+		<title>en clair</title>
+		<link>rtmp://live-fms.canalplus.fr:443/live/itele_800@42248 timeout=15</link> 
+	</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>D17</cname>
+		<item>
+			<title>akamaihd</title>
+			<link>plugin://plugin.video.f4mTester/?url=http://hds_live_d17_aka-lh.akamaihd.net/z/d17_hds@182614/manifest.f4m?hdcore=2.11.3&amp;g=RKZVIOALHRKW&amp; als=0,0.1,0,3,0,NaN,0,0,0,97,f,11173574,11173584.2 9,t,u,RKZVIOALHRKW,2.11.3,97&amp;hdcore=2.11.3</link> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TF1</cname>
+		<item>
+			<title>wat</title>
+			<link>http://smooth.wat.tv/DVR_ETF1/source/dvr.m3u8</link> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TF1</cname>
+		<item>
+			<title>wat</title>
+			<link>rtmp://halima-live.com:1936/live2 playpath=tf1 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=1 flashver=WIN\2013,0,0,214 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=81 timeout=15</link> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TF1</cname>
+		<item>
+			<title>master</title>
+			<link>http://pebbles109-lh.akamaihd.net/i/tf1_1@97468/master.m3u8|User-Agent=Mozilla%2F5.0%20(iPhone%3B%20U%3B%20CPU%20iPhone%20OS%203_0%20like%20Mac%20OS%20X%3B%20en-us)%20AppleWebKit%2F528.18%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Mobile%2F7A341%20Safari%2F528.16&amp;X-Forwarded-For=146.159.95.38</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>NRJ 12</cname>
+		<item>
+			<title>master</title>
+			<link>http://max.myfrtv.com/8206/m3u8/8206.m3u8$doregex[get-token]</link>
+			<regex>
+			<name>get-token</name>
+			<expres>(.*)</expres>
+			<page>http://myfrtv.com/channels/new-file/</page>
+			<x-forward>205.236.221.231</x-forward>
+			</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>NRJ 12</cname>
+		<item>
+			<title>master</title>
+			<link>rtsp://rtsp-out-b.live.tdf-cdn.com:554/2887_nrj_12_tv_nrj_174257.sdp</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>NT1</cname>
+		<item>
+			<title>master</title>
+			<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]&amp;auth=pvtoken%3Dexp%253D9999999999%257Eacl%253D%25252f%25252a%257Edata%253DZXhwPTE0MDc3MjY1NDN%2BYWNsPSUyZip%2BZGF0YT1wdmMsc35obWFjPTM0MjA3YTQ3MzY3Yzg3MDg1NzE4ODllYWFiNTY0ZGZiZWFkNmE1YzdlMGNhMGU4MmI0OWYwODdhY2I4YWJkZmY%253D%252196e4sdLWrezE46RaCBzzP43%2FLEM5en2KujAosbeDimQ%253D%257Ehmac%253D2AA3E9BD61EC957996CFAC754462A786C5ED62A96052B222DAC2C0035AEC7B66%26hdntl%3Dexp%3D1407726543~acl%3D%252f*~data%3Dhdntl~hmac%3D8f4bbcfcf6fcfd5afd5cf47b275887c421990f8bde35e9f4da79540fa203fe45%26als%3D0%2C2%2C0%2C0%2C0%2CNaN%2C0%2C0%2C0%2C30%2Cf%2C53716579.66%2C53716589.97%2Ct%2Cs%2CUGLENDKFJKPW%2C2.11.3%2C30%26hdcore%3D2.11.3</link>
+			<regex>
+				<name>get-urlencoded</name>
+				<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]'+'&amp;hdcore=2.11.3|X-Forwarded-For=77.132.237.189&amp;User-Agent=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20rv%3A30.0)%20Gecko%2F20100101%20Firefox%2F30.0')</expres>
+				<page></page>
+			</regex>
+
+			<regex>
+				<name>get-url</name>
+				<expres>(.*)</expres>
+				<page>http://www.wat.tv/get/nt1live/591997?getURL=1</page>
+			</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TMC</cname>
+		<item>
+			<title>master</title>
+			<link>http://max.myfrtv.com/8211/m3u8/8211.m3u8$doregex[get-token]</link>
+				<regex>
+				<name>get-token</name>
+				<expres>(.*)</expres>
+				<page>http://myfrtv.com/channels/new-file/</page>
+				<x-forward>205.236.221.231</x-forward>
+				</regex>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>GTV Ghana</cname>
+		<item>
+			<title>original</title>
+			<link>rtmp://skylite.pointcdn.net//skylite/ams/ghanatv timeout=15</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 1HQ</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_800  timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 1HD</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_1200 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 2HQ</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel2_800 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 2HD</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel2_1200 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 3HQ</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel3_1200 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 3HD</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel3_800 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 4HQ</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel4_1200 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 4HD</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel4_800 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 5HQ</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_1200 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 5HD</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_800 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 6HQ</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel6_1200 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 6HD</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel6_800 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 7HQ</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel7_1200 timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>SPORT TIME</cname>
+		<item>
+			<title> GERMANY SPORT TIME TV 7HD</title>
+			<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel7_800 timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>BBC One</cname>
+		<item>
+			<title>high</title>
+			<link>plugin://plugin.video.f4mTester/?url=http%3A%2F%2Fzaphod-live.bbc.co.uk.edgesuite.net%2Fhds-live%2Flivepkgr%2F_definst_%2Fbbc1%2Fbbc1_1500.f4m%7CX-Forwarded-For%3D212.58.241.131</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>BBC One</cname>
+		<item>
+			<title>flashtv</title>
+			<link>rtmp://31.220.0.133:1935/live playpath=bbc1 swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sky Sports 1</cname>
+		<item>
+			<title>hdcast</title>
+			<link>rtmpe://46.246.124.27:1935/live/w-sp.tv-s2 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>Sky Sports 2</cname>
+		<item>
+			<title>flashtv</title>
+			<link>rtmpe://46.246.124.27:1935/live/w-sp.tv-s3 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>Sky Sports 3</cname>
+		<item>
+			<title>flashtv</title>
+			<link>rtmpe://46.246.124.27:1935/live/w-sp.tv-s4 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>Sky Sports 4</cname>
+		<item>
+			<title>flashtv</title>
+			<link>rtmpe://46.246.124.27:1935/live/w-sp.tv-s5 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sky Sports F1</cname>
+		<item>
+			<title>sky 5 best</title>
+			<link></link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>sunnah TVvv</cname>
+		<item>
+			<title>rtmp 720p</title>
+			<link>rtmp://5.9.81.202/live//sunna_720p timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>Al Hiwar</cname>
+		<item>
+			<title>alhiwar.tv</title>
+			<link>rtmp://185.2.136.148/livepkgr playpath=livestream swfUrl=http://alhiwar.tv/tv/510/player.swf live=true  pageUrl=http://translate.googleusercontent.com/translate_c?depth=1&amp;hl=en&amp;prev=/search%3Fq%3Dal%2Bhiwar%26biw%3D1366%26bih%3D615&amp;rurl=translate.google.com&amp;sl=ar&amp;u=http://www.alhiwar.tv/&amp;usg=ALkJrhhSMbPdHP5Qj4XnT0dmn-Nj_rubJg timeout=20</link>
+		</item>
+	</streaminginfo>
+    
+	<streaminginfo>
+		<cname>AL MASAR</cname>
+		<item>
+			<title>original</title>
+			<link>rtmp://msr1tv.flashmediacast.com:2071/live/livestream timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Al Sharqiya</cname>
+		<item>
+			<title>indexforce</title>
+			<link>rtmp://ns8.indexforce.com/home/mystream timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Al Sharqiya News</cname>
+		<item>
+			<title>indexforce</title>
+			<link>rtmp://ns8.indexforce.com/alsharqiyalive/mystream timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	<streaminginfo>
+		<cname>AlFajer Gaza</cname>
+		<item>
+			<title>original Geoblocked</title>
+			<link>rtmp://82.102.232.165:1935/alfajertv_gaza/alfajertv_1 timeout=20</link>
+		</item>
+	</streaminginfo>
+
+	
+	<streaminginfo>
+		<cname>Alfajr Int</cname>
+		<item>
+			<title>vstream2</title>
+			<link>rtmp://vstream2.hadara.ps:1935/unlimitedalfajer/unlimited_1 timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	<streaminginfo>
+		<cname>ALTAGHEER TV</cname>
+		<item>
+			<title>joinvisions</title>
+			<link>http://stream.joinvisions.net:1935/taglive/taghier/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	
+	<streaminginfo>
+		<cname>AlYawm</cname>
+		<item>
+			<title>fb</title>
+			<link>rtmp://839156450.e.541833257.r.w6cdn.com/541833257//mp4:freeegeYSbQLHNsFZa timeout=15</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>ANN</cname>
+		<item>
+			<title>indexforce</title>
+			<link>rtmp://ns8.indexforce.com/ann/ann timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>arte</cname>
+		<item>
+			<title>frlive 925p</title>
+			<link>http://frlive.artestras.cshls.lldns.net/artestras/contrib/frlive/frlive_925.m3u8 </link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>arte</cname>
+		<item>
+			<title>frlive 540p</title>
+			<link>http://frlive.artestras.cshls.lldns.net/artestras/contrib/frlive/frlive_540.m3u8 </link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>arte</cname>
+		<item>
+			<title>frlive 315</title>
+			<link>http://frlive.artestras.cshls.lldns.net/artestras/contrib/frlive/frlive_315.m3u8 </link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>arte</cname>
+		<item>
+			<title>frlive 315</title>
+			<link>http://pebbles101-lh.akamaihd.net/i/artefr_1@97346/master.m3u8|X-Forwarded-For=195.186.145.47</link>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>BAHRAIN SPORTS</cname>
+		<item>
+			<title>netromedia.net</title>
+			<link>rtmp://alayam.netromedia.net/btv3/btv3 timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>Bein 1 FR</cname>
+		<item>
+			<title>live events</title>
+			<link>rtmp://cdn.direct-stream.org/liverepeat/ playpath=channnel00005a swfUrl=http://direct-stream.org/embeds/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.org/embeds/15s.php?c=franshsd&amp;vw=650&amp;=400 timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Bein 1 FR</cname>
+		<item>
+			<title>halima-live</title>
+			<link>rtmp://halima-live.com:1936/live2 playpath=bein1fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2013,0,0,214 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=23&amp;id=33 timeout=20</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 1 FR</cname>
+		<item>
+			<title>hdcast</title>
+			<link>rtmpe://46.246.124.27:1935/live/w-sp.tv-b1fr pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=20</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 1 FR</cname>
+		<item>
+			<title>hdcast</title>
+			<link>rtmpe://46.246.124.3:1935/live swfUrl=http://hdcast.org/j2/jwplayer.flash.swf pageUrl=http://hdcast.org playpath=w-sp.tv-b1fr token=#yw%tt#w@kku swfVfy=true live=true timeout=20</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 1 FR</cname>
+		<item>
+			<title>hdcast</title>
+			<link>rtmp://195.154.242.124:80/liverepeater playpath=166526 swfUrl=http://cdn.goodcast.pw/players.swf live=1 pageUrl=http://goodcast.me/Abouda token=Fo5_n0w?U.rA6l3-70w47ch  timeout=20</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 2 FR</cname>
+		<item>
+			<title>hdcast</title>
+			<link>rtmpe://46.246.124.27:1935/live/w-sp.tv-b2fr pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=20</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 2 FR</cname>
+		<item>
+			<title>hdcast</title>
+			<link>rtmpe://46.246.124.3:1935/live swfUrl=http://hdcast.org/j2/jwplayer.flash.swf pageUrl=http://hdcast.org playpath=w-sp.tv-b2fr token=#yw%tt#w@kku swfVfy=true live=true timeout=20</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 2 FR</cname>
+		<item>
+			<title>poneytelecom</title>
+			<link>rtmp://195-154-220-115.rev.poneytelecom.eu/private/bes22014</link> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 2 FR</cname>
+		<item>
+			<title>poneytelecom</title>
+			<link>rtmp://195.154.242.124:80/liverepeater playpath=166527 swfUrl=http://cdn.goodcast.pw/players.swf live=1 pageUrl=http://goodcast.me/Abouda token=Fo5_n0w?U.rA6l3-70w47ch timeout=20</link> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 1 FR</cname>
+		<item>
+			<title>numericable</title>
+			<link>http://beinsport1-hls.live.numericable.tv/live/hls/beinsport1/ipad.m3u8</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein 2 FR</cname>
+		<item>
+			<title>numericable</title>
+			<link>http://beinsport2-hls.live.numericable.tv/live/hls/beinsport2/ipad.m3u8</link> 
+			</item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>NBC Golf</cname>
+		<item>
+			<title>480p SD</title>
+			<link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/1896k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>NBC Golf</cname>
+		<item>
+			<title>720p HD</title>
+			<link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>NBC Golf</cname>
+		<item>
+			<title>1080p HD</title>
+			<link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>		
+		<cname>Tele Sports</cname>
+		<item>
+			<title>trthd</title>
+			<link>rtmp://si.trtcdn.com/tv/trthd/mp4:trthd_3 timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>Tele Sports</cname>
+		<item>
+			<title>SportsTV3</title>
+			<link>rtmp://stream.sportstv.com.tr/sportstv/SportsTV3 timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Tele Sports</cname>
+		<item>
+			<title>aspor</title>
+			<link>http://hls.turkuvazgroup.net/aspor-hls/smil:aspor.smil/chunklist_www_b396000.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Cinema EN</cname>
+		<item>
+	        <title> ar</title>
+			<link>http://212.68.33.139:8001</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Cinema EN</cname>
+		<item>
+	        <title> fr</title>
+			<link>http://212.68.33.139:8003</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Cinema EN</cname>
+		<item>
+	        <title> en</title>
+			<link>http://212.68.33.139:8002</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>rts un</cname>
+		<item>
+			<title>akamaihd</title>
+			<link>http://pebbles109-lh.akamaihd.net/i/rts1_1@97469/index_900_av-p.m3u8|X-Forwarded-For=195.186.145.47</link>  
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>rts deux</cname>
+		<item>
+		<title>RTS Deux</title>
+		<link>http://pebbles109-lh.akamaihd.net/i/rts2_1@97470/index_900_av-p.m3u8|X-Forwarded-For=195.186.145.47</link> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>LCI</cname>
+		<item>
+			<title>LCI</title>
+			<link>rtmp://cp84002.live.edgefcs.net:80/live playpath=eTF1-LCI-Flash-Int@15274 swfUrl=http://www.wat.tv/images/v40/PlayerWat.swf?revision=4.1.207 live=true timeout=30 swfVfy=1 pageUrl=http://www.wat.tv/images/v40/LoaderExportV3.swf</link>  
+			<x-forward>91.121.98.216</x-forward> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Equipe 21</cname>
+			<item>
+					<title>L'Equipe 21</title>
+					<link>http://95.81.146.15/5687/index.m3u8</link>
+					<x-forward>91.121.98.216</x-forward>
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Equipe 21</cname>
+			<item>
+					<title>L'Equipe 21</title>
+					<link>rtmp://vipwowza.yacast.net:1935/equipetv_live21/live21/ playpath=manifest.f4m live=1</link>
+			</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>HD1</cname>
+		<item>
+		<title>wat</title>
+		<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]&amp;auth=pvtoken%3Dst%253D0000000000%257Eexp%253D9999999999%257Eacl%253D%25252f%25252a%257Edata%253DZXhwPTE0MDc3MjYzMzN%2BYWNsPSUyZip%2BZGF0YT1wdmMsc35obWFjPTFhMGE4NTk1NjBjOGRjNGVmNTIxZWQ4ZGExODc1MjRiMWYwYmJmMDUxMDFkMWU4ZDJlM2E5YmU1NjkwNjNjNWQ%253D%2521DICnlYvc%2FdmyS2FqMPqgEOeNAJFILRiYPxqjY4EHEys%253D%257Ehmac%253D6D960F9624EDF71727A75B6C360CD79C661CB96C62AF2B45286B5523B71D04D4%26hdntl%3Dexp%3D1407726333~acl%3D%252f*~data%3Dhdntl~hmac%3D90ab911ebe7c4fc6976777c6cd2874eedaec5da4128c8ed92817442dcae65afb%26hdcore%3D2.5.14%26als%3D0%2C2%2C0%2C0%2C0%2CNaN%2C0%2C0%2C0%2C19%2Cf%2C54125192%2C54064223.59%2Ct%2Cs%2CQHQOKBVWPVWK%2C2.7.6%2C19</link>
+		<regex>
+		<name>get-urlencoded</name>
+		<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]'+'&amp;hdcore=2.5.14|X-Forwarded-For=77.132.237.189&amp;User-Agent=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20rv%3A30.0)%20Gecko%2F20100101%20Firefox%2F30.0')</expres>
+		<page></page>
+		</regex>
+		<regex>
+		<name>get-url</name>
+		<expres>(.*)</expres>
+		<page>http://www.wat.tv/get/hd1live/591997?getURL=1</page>
+		</regex>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>CN FR</cname>
+		<item>
+			<title>index</title>
+			<link>http://pebbles121-lh.akamaihd.net/i/cn_1@137751/index_1300_av-p.m3u8|User-Agent=Mozilla%2F5.0%20(iPhone%3B%20U%3B%20CPU%20iPhone%20OS%203_0%20like%20Mac%20OS%20X%3B%20en-us)%20AppleWebKit%2F528.18%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Mobile%2F7A341%20Safari%2F528.16&amp;X-Forwarded-For=146.159.95.38</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>GULLI</cname>
+		<item>
+			<title>yacast.net</title>
+			<link>http://vipwowza.yacast.net/gulli_live/_definst_/mp4:gulli_850/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>MBC 3</cname>
+		<item>
+	        <title>rtmp</title>
+			<link>rtmp://85.91.143.20/15678//15678.stream timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>MTV</cname>
+		<item>
+			<title>livestreaming1</title>
+			<link>rtsp://livestreaming1.itworkscdn.net/mtvlive/murrtelevision_160p</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Nile Cinema</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileCinema playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=cinema timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+
+	<streaminginfo>
+		<cname>Nile Comedy</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileComedy/ playpath=livestream swfUrl=http://niletc.tv/player/player.swf pageUrl=http://niletc.tv/stream.php?ch=comedy swfVfy=true live=true timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Nile Culture</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileCulture playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Nile Drama</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileDrama playpath=livestream?ch=drama swfUrl=http://ntn.onlinehorizons.net/player/player.swf pageUrl=http://www.ntnegypt.net/stream.php live=1 timeout=20</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Nile Family</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileFamily playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=family timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Nile Learning</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/Learning1 playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=Learning timeout=20</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Nile Life</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileLife playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=life timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Nile Sport</cname>
+		<item>
+			<title>livestreaming</title>
+			<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileSport playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=sport timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	
+	
+	<streaminginfo>
+		<cname>Quran TV ksavv</cname>
+		<item>
+			<title>720p</title>
+			<link>rtmp://5.9.81.202/live//quraan_720p timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>KSA 1vv</cname>
+		<item>
+			<title>islambox</title>
+			<link>rtmp://ib12.islambox.tv/live/?v=hghpl]=a2V5bGl2ZTE5Ny0xNS0yMzUtNzkyMDE0LTA1LTIzLTE3LTA0LTM3/vb008_sauditv1.stream?key=1DF7699BEF2100B54B5F770003AEF11E66B5DD32C3AB969A08536956804CF892 timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+    
+    <streaminginfo>
+		<cname>Royavv</cname>
+		<item>
+			<title>joinvisions </title>
+			<link>http://stream..net:1935/royalive/roya_2/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Spacetoon</cname>
+		<item>
+			<title>rtmp</title>
+			<link>rtmp://85.91.143.21/35985/35985.stream timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>TV 5 MONDE</cname>
+		<item>
+			<title>stream</title>
+			<link>rtmp://85.91.143.22/90457/90457.stream timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>Hanibal</cname>
+		<item>
+			<title>streaminghd</title>
+			<link>rtmp://41.231.53.11:1935/thd/ playpath=hannibal swfUrl=http://www.streaminghd.tn/video/player.swf?random=457216235 live=1 pageUrl=http://www.direct4live.com/2013/07/hannibal-tv-en-live-direct.html timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Al Hiwar Ettounsi</cname>
+		<item>
+			<title>streaminghd</title>
+			<link>rtmp://41.231.53.11:1935/thd playpath=hiwar swfUrl=http://streaminghd.tn/video/player.swf?random=2088406218 live=1 pageUrl=http://www.direct4live.com/2014/03/el-hiwar-ettounsi-tv-direct-live.html timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Nessma</cname>
+		<item>
+			<title>streaminghd</title>
+			<link>rtmp://41.231.53.11:1935/thd/ playpath=nessma swfUrl=http://streaminghd.tn/video/player.swf?random=108740157 live=1 pageUrl=http://www.direct4live.com/2013/07/nessma-en-direct-live.html timeout=20</link>
+		</item>
+	</streaminginfo>		
+	<streaminginfo>
+		<cname>Al Janoubiya</cname>
+		<item>
+			<title>streaminghd </title>
+			<link>rtmp://41.231.53.11:1935/thd/ playpath=janoubia swfUrl=http://www.streaminghd.tn/video/player.swf?random=182728996 live=1 pageUrl=http://www.direct4live.com/2013/08/al-janoubia-tv-en-direct-live.html timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Telvza TV</cname>
+		<item>
+			<title>streaminghd </title>
+			<link>rtmp://41.231.53.11:1935/thd/ playpath=telvza swfUrl=http://streaminghd.tn/video/player.swf?random=1664158234 live=1 pageUrl=http://www.direct4live.com/2013/10/telvza-tv-en-direct-live.html timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Tounesna</cname>
+		<item>
+			<title>streaminghd </title>
+			<link>rtmp://41.231.53.11:1935/thd playpath=tunisna swfUrl=http://streaminghd.tn/video/player.swf?random=1578550586 live=1 pageUrl=http://www.direct4live.com/2014/02/tounesna-tv-direct-live.html timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Wesal Tv</cname>
+		<item>
+			<title>elahmad</title>
+			<link>rtmp://109.123.123.82:1935/wesal playpath=wesal1 swfUrl=http://www.elahmad.com/tv/swf/wesaltv.swf?autostart=true pageUrl=http://www.elahmad.com/tv/wesaltv.htm timeout=20</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>NBN</cname>
+		<item>
+			<title>elahmad</title>
+			<link>rtmp://lived.nbn.com.lb/nbn?hghpl]=keylive72-229-239-1302013-08-25-05-32-36/ playpath=mpegts.stream swfUrl=http://www.elahmad.com/tv/swf/player.swf?file=nbnlb&amp;autostart=true&amp;%2F%5B0%5D%5BDYNAMIC%5D%5B0%5D pageUrl=http://www.elahmad.com/tv/nbn-lebanon.php swfVfy=true live=true timeout=15</link>
+		</item>
+	</streaminginfo> 
+	<streaminginfo>
+		<cname>M3Ali Tv</cname>
+		<item>
+			<title>elahmad</title>
+			<link>rtmp://free.flashwebtown.com:1935/bashaclick playpath=myStream.sdp swfUrl=http://www.elahmad.com/tv/swf/player.swf?file=m3alitv&amp;autostart=true pageUrl=http://www.elahmad.com/tv/m3alitv.php timeout=20</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	<streaminginfo>
+		<cname>Al Maghribia</cname>
+		<item>
+			<title>streamago</title>
+			<link>http://ca-edge-2.cdn2.streamago.tv:80/streamagoedge/1922/815/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Tunisia national 1</cname>
+		<item>
+			<title> streamago</title>
+			<link>http://ca-edge-1.cdn2.streamago.tv:80/streamagoedge/1052/224/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>TV 5 MONDE</cname>
+		<item>
+			<title>streamago</title>
+			<link>http://rm-edge-3.cdn2.streamago.tv/streamagoedge/1924/817/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	<streaminginfo>
+		<cname>AL RASHEED</cname>
+		<item>
+			<title>mms</title>
+			<link>mmsh://77.67.107.89/alrasheedtv?MSWMExt=.asf</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Alrai</cname>
+		<item>
+			<title>mms</title>
+			<link>mms://62.215.216.130/wmtencoder/alrai350.wmv</link>
+		</item>
+	</streaminginfo>
+		
+		
+	
+	<streaminginfo>
+		<cname>Haneen Channelvv</cname>
+		<item>
+			<title>watchislam</title>
+			<link>mmsh://stream.watchislam.com/ramadan</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>iFilm Arabic</cname>
+		<item>
+			<title>mms</title>
+			<link>mms://93.190.24.114/ifilmtv</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	<streaminginfo>
+		<cname>AlYawm</cname>
+		<item>
+			<title>ustream</title>
+			<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/12786066/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Quran TV ksa</cname>
+		<item>
+			<title>ustream</title>
+			<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/17904315/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>astro super sport</cname>
+		<item>
+			<title>astro super sport 1</title>
+			<link>http://122.155.203.9:8081/get/assp1/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>astro super sport</cname>
+		<item>
+			<title>astro super sport 2</title>
+			<link>http://122.155.203.9:8081/get/assp2/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>astro super sport</cname>
+		<item>
+			<title>astro super sport 3</title>
+			<link>http://122.155.203.9:8081/get/assp3/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>astro super sport</cname>
+		<item>
+			<title>astro super sport 4</title>
+			<link>http://122.155.203.9:8081/get/assp4/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>FRANCE 2</cname>
+		<item>
+			<title>smil</title>
+
+				<link>http://dt3zwsgl95oj4.cloudfront.net/live2/france2.smil/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 3</cname>
+		<item>
+				<title>smil</title>
+
+				<link>http://dt3zwsgl95oj4.cloudfront.net/live2/france3.smil/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 4</cname>
+		<item>
+			<title>smil</title>
+
+				<link>http://dt3zwsgl95oj4.cloudfront.net/live2/france4.smil/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 5</cname>
+		<item>
+			<title>smil</title>
+
+				<link>http://dt3zwsgl95oj4.cloudfront.net/live2/france5.smil/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>FRANCE 0</cname>
+		<item>
+			<title>smil</title>
+
+				<link>http://dt3zwsgl95oj4.cloudfront.net/live2/franceo.smil/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>MBC PRO SP1</cname>
+		<item>
+			<title>m3u8</title>
+
+				<link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports01/_definst_/live/stream1.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>MBC PRO SP2</cname>
+		<item>
+			<title>m3u8</title>
+
+				<link>http://mbcprosports02-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports02/_definst_/live.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>MBC PRO SP3</cname>
+		<item>
+			<title>m3u8</title>
+
+				<link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports03/_definst_/live.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>MBC PRO SP4</cname>
+		<item>
+			<title>m3u8</title>
+
+				<link>http://mbcprosports04-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports04/_definst_/live.m3u8</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+
+		<cname>Sky Sports 1</cname>
+
+		<item>
+			<title>kbps.tv</title>
+
+			<link>rtmp://77.81.98.130/pub playpath=mrk1 swfUrl=http://www.fbcast.tv/player/player-licensed.swf live=1 pageUrl=http://www.fbcast.tv/embed.php?v=sp10jh12&amp;vw=600&amp;vh=450&amp;video=0&amp;domain=hdembed.com</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+	
+
+		<cname>Sky Sports 2</cname>
+
+		<item>
+			<title>kbps.tv</title>
+
+			<link>rtmp://akamai.kbps.tv:1935/live playpath=skysp2?Key=75caf48606ec01bcc9be55d46864c915 swfUrl=http://www.kbps.tv/jl/player.swf live=1 pageUrl=http://www.kbps.tv/embed.php?s=skysp2&amp;width=600&amp;height=450&amp;domain=hdembed.com timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+	
+
+		<cname>Sky Sports 3</cname>
+
+		<item>
+			<title>best</title>
+
+			<link>http://213.133.100.136/dzsat/weekend/508.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+	
+
+		<cname>Sky Sports 4</cname>
+
+		<item>
+			<title>sk5</title>
+
+			<link>rtmpe://46.246.124.22:1935/live/ playpath=sskys5 pageUrl=http://www.hdcast.org/loboicaperucita token=#yw%tt#w@kku timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+	
+
+		<cname>Bein Sport News</cname>
+
+		<item>
+			<title>sd</title>
+
+			<link>http://149.255.39.122/aasd/8817/index.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Bein Sport 1</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://5.153.233.74:443/c0be82e1442e7169a9a358db47fcafcb app=c0be82e1442e7169a9a358db47fcafcb playpath=1b342 swfUrl=http://res.xuscacamusca.se/6ec3e75435a5cb7af67afd7e98cee751/player1.swf pageUrl=http://xuscacamusca.se/?id=24104&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 2</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=2b878 swfUrl=http://res.xuscacamusca.se/bd0d900c0e94e9d140b14d8db2edf3bb/player1.swf pageUrl=http://xuscacamusca.se/?id=24105&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 3</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=3b426 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24106&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 4</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=4b206 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24110&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 5</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=5b981 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24111&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 6</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=6b660 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24112&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 7</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=7b842 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24113&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 8</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=8b916 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24114&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 9</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=9b272 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24115&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 10</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>tmpe://l.xuscacamusca.se/r/ playpath=10b510 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24116&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 11</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=11b761 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24117&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 12</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=12b994 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24118&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 13</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=13b361 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24119&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 14</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=14b898 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24120&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 15</cname>
+		<item>
+			<title>xuscacamusca</title>
+
+				<link>rtmpe://l.xuscacamusca.se/r/ playpath=15b378 swfUrl=http://res.xuscacamusca.se/5e11797518d00400d99fb91bf8134017/player1.swf pageUrl=http://xuscacamusca.se/?id=24121&amp;width=100%25&amp;height=100% live=1 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 1</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc1 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 2</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc2 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 3</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc3 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 4</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc4 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 5</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc5 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 6</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc6 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 7</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc7 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 8</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc8 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 9</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc9 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 10</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc10 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 11</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc11 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 12</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc12 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 13</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc13 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 14</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc14 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 15</cname>
+		<item>
+			<title>hdcast</title>
+
+				<link>rtmpe://46.246.124.29:1935/live playpath=jsc15 swfUrl=http://www.hdcast.org/players.swf live=1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 1</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=20 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 2</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=21 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 3</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=23 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 4</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=24 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 5</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=25 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 6</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=26 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 7</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=27 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 8</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=28 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 9</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=29 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 10</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=30 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 11</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=31 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 12</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=32 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 13</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=33 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 14</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=34 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 15</cname>
+		<item>
+			<title>xxcast</title>
+
+				<link>rtmp://89.248.171.97:443/liverepeater playpath=35 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460 token=#atd%#$ZH timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 1</cname>
+		<item>
+			<title>yalla-shoot</title>
+
+				<link>rtmp://94.242.228.84:80/liverepeater playpath=164455 swfUrl=http://cdn.goodcast.me/players.swf live=1 pageUrl=http://goodcast.me/ token=Fo5_n0w?U.rA6l3-70w47ch timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 2</cname>
+		<item>
+			<title>yalla-shoot</title>
+
+				<link>rtmp://195.154.220.46:80/liverepeater playpath=164454 swfUrl=http://cdn.goodcast.pw/players.swf live=1 pageUrl=http://goodcast.me/stream.php?id=164454&amp;width=600&amp;height=450&amp;stretching= token=Fo5_n0w?U.rA6l3-70w47ch timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 3</cname>
+		<item>
+			<title>yalla-shoot</title>
+
+				<link>rtmp://94.242.228.84:80/liverepeater playpath=164456 swfUrl=http://cdn.goodcast.me/players.swf live=1 pageUrl=http://goodcast.me/ token=Fo5_n0w?U.rA6l3-70w47ch timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 4</cname>
+		<item>
+			<title>yalla-shoot</title>
+
+				<link>rtmp://195.154.220.46:80/liverepeater playpath=164457 swfUrl=http://cdn.goodcast.pw/players.swf live=1 pageUrl=http://goodcast.me/stream.php?id=164457&amp;width=600&amp;height=450&amp;stretching= token=Fo5_n0w?U.rA6l3-70w47ch timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 1</cname>
+		<item>
+			<title>sonara</title>
+
+				<link>rtmp://live.sonara.net/live/ playpath=live2 swfUrl=http://www.sonara.net/mediaplayera/player.swf live=1 pageUrl=http://www.sonara.net/Abouda timeout=10</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 2</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/80.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 3</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/81.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 4</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/82.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 5</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/479.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 6</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/480.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 7</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/481.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 8</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/482.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 9</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/87.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 10</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/88.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 11</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/89.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 12</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/90.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 13</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/91.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 14</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/92.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 15</cname>
+		<item>
+			<title>dzsat</title>
+
+				<link>http://213.133.100.136/dzsat/weekend/93.ch</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 1</cname>
+		<item>
+			<title>HLS</title>
+
+				<link>http://hls01-06.az.myvideo.az/hls-live/livepkgr/sport5/sport5/sport5.m3u8?rRb545vJBB5tYzB7vVP</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 6</cname>
+		<item>
+			<title>HLS</title>
+
+				<link>http://hls01-06.az.myvideo.az/hls-live/livepkgr/sport6/sport6/sport6.m3u8?rRb545vJBB5tYzB7vVP</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 2</cname>
+		<item>
+			<title>HQ</title>
+
+				<link>http://212.29.216.8:1935/live/live1/chunklist_w68046465.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>		
+		<cname>.Live Event</cname>
+			<item>
+				<title>tab3sport leton</title>
+				<link>$doregex[get-rtmp] swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1  timeout=20</link>
+				<regex>
+				<name>get-rtmp</name>
+				<expres>$pyFunction:get_leton_rtmp(page_data)</expres>
+				<page>$doregex[get-pageurl]</page>
+				<referer>http://www.wl3.us/Live2/</referer>
+				</regex>
+				<regex>
+				<name>get-pageurl</name>
+				<expres>(http.*450).*</expres>
+				<page>http://tab3sport.net/tv3/</page>
+				</regex>
+		    </item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>.Live Event</cname>
+			<item>
+				<title>livekoooora leton</title>
+				<link>$doregex[get-rtmp] swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1  timeout=20</link>
+				<regex>
+				<name>get-rtmp</name>
+				<expres>$pyFunction:get_leton_rtmp(page_data)</expres>
+				<page>$doregex[get-pageurl]</page>
+				<referer>http://www.wl3.us/Live2/</referer>
+				</regex>
+				<regex>
+				<name>get-pageurl</name>
+				<expres>(http.*450).*</expres>
+				<page>http://livekoooora.net/live.php</page>
+				</regex>
+		    </item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>.Live Event</cname>
+			<item>
+				<title>tab3sport leton</title>
+				<link>$doregex[get-rtmp] swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1  timeout=20</link>
+				<regex>
+				<name>get-rtmp</name>
+				<expres>$pyFunction:get_leton_rtmp(page_data)</expres>
+				<page>$doregex[get-pageurl]</page>
+				<referer>http://www.wl3.us/Live2/</referer>
+				</regex>
+				<regex>
+				<name>get-pageurl</name>
+				<expres>(http.*450).*</expres>
+				<page>http://www.tab3sport.net/n1/</page>
+				</regex>
+		    </item>
+	</streaminginfo>
+	<streaminginfo>		
+		<cname>.Live Event</cname>
+			<item>
+				<title>tab3sport leton</title>
+				<link>$doregex[get-rtmp] swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1  timeout=20</link>
+				<regex>
+				<name>get-rtmp</name>
+				<expres>$pyFunction:get_leton_rtmp(page_data)</expres>
+				<page>$doregex[get-pageurl]</page>
+				<referer>http://www.wl3.us/Live2/</referer>
+				</regex>
+				<regex>
+				<name>get-pageurl</name>
+				<expres>(http.*450).*</expres>
+				<page>http://www.tab3sport.net/n2/</page>
+				</regex>
+		    </item>
+	</streaminginfo>
+	
+
+	<streaminginfo>
+		<cname>.Live Ustream</cname>
+		<item>
+			<title>livehd720_3</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18958050/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>.Live Ustream</cname>
+		<item>
+			<title>live720_2</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18710300/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>.Live Ustream</cname>
+		<item>
+			<title>live720_4</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18055171/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>.Live Ustream</cname>
+		<item>
+			<title>live720_1</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/19120329/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex> 
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>BEIN ESP</cname>
+		<item>
+			<title>ustream</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/19120698/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex> 
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>.Live Youtube</cname>
+		<item>
+			<title>livekoooora 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>src="//www.youtube.com/embed/s*(.*?)\s</expres>
+				<page>http://www.livekoooora.net/channel4.php</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+	
+
+		<cname>.Live Youtube</cname>
+		<item>
+			<title>livekoooora 720p</title>
+			<link>$doregex[getQualityLink]</link>
+
+			<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+			</regex>
+			<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+			</regex>
+			<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+			</regex>
+			<regex>
+				<name>delink</name>
+				<expres>src="//www.youtube.com/embed/s*(.*?)\s</expres>
+				<page>http://dimasport.tn/fr/?p=194</page>
+			</regex>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+	
+
+		<cname>.Live Youtube</cname>
+		<item>
+			<title> 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>src="//www.youtube.com/embed/s*(.*?)\s</expres>
+				<page>http://tb3.tv/tr1/</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<item>
+			<title>youtube 480p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=854x480\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>src="//www.youtube.com/embed/s*(.*?)\s</expres>
+				<page>http://tb3.tv/tr1/</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+	
+
+		<cname>.Live Youtube</cname>
+		<item>
+			<title>@Tab3live  720p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>src="//www.youtube.com/embed/s*(.*?)\s</expres>
+				<page>http://tb3.tv/tr1/</page>
+				</regex>
+				
+		</item>
+	</streaminginfo>
+	
+	
+	
+	
+	<streaminginfo>
+		<cname>CafeCreme 1</cname>
+		<item>
+			<title>Channel 1</title>
+
+				<link>rtmp://85.159.237.249:1935/live1/_definst_ playpath=live1  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 2</cname>
+		<item>
+			<title>Channel 2</title>
+
+				<link>rtmp://85.159.237.249:1935/live2/_definst_ playpath=live2  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 3</cname>
+		<item>
+			<title>Channel 3</title>
+
+				<link>rtmp://85.159.237.249:1935/live3/_definst_ playpath=live3  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 4</cname>
+		<item>
+			<title>Channel 4</title>
+
+				<link>rtmp://85.159.237.249:1935/live4/_definst_ playpath=live4  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 5</cname>
+		<item>
+			<title>Channel 5</title>
+
+				<link>rtmp://85.159.237.249:1935/live5/_definst_ playpath=live5  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 6</cname>
+		<item>
+			<title>Channel 6</title>
+
+				<link>rtmp://85.159.237.249:1935/live6/_definst_ playpath=live6  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 7</cname>
+		<item>
+			<title>Channel 7</title>
+
+				<link>rtmp://85.159.237.249:1935/live7/_definst_ playpath=live7  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 8</cname>
+		<item>
+			<title>Channel 8</title>
+
+				<link>rtmp://85.159.237.249:1935/live8/_definst_ playpath=live8  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 9</cname>
+		<item>
+			<title>Channel 9</title>
+
+				<link>rtmp://85.159.237.249:1935/live9/_definst_ playpath=live9  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 10</cname>
+		<item>
+			<title>Channel 10</title>
+
+				<link>rtmp://37.48.94.35/live playpath=manger1?id=214185 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/simosat68/1/850/500 timeout=15</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CafeCreme 11</cname>
+		<item>
+			<title>Channel 11</title>
+
+				<link>rtmp://46.21.145.234/live playpath=kam11?id=213939 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/mipsite/1/850/500 timeout=15</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>CafeCreme 12</cname>
+		<item>
+			<title>Channel 12</title>
+
+				<link>rtmp://46.165.230.40/live playpath=kasixidfifff?id=213474 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/kasixidfifff/1/850/500 timeout=15</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Bein Sport 1</cname>
+		<item>
+			<title> 1 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bns1 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=20</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 2</cname>
+		<item>
+			<title> 2 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bns2 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 3</cname>
+		<item>
+			<title> 3 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bns3 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 4</cname>
+		<item>
+			<title> 4 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bns4 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 5</cname>
+		<item>
+			<title> 5 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bn5 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 6</cname>
+		<item>
+			<title> 6 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bn6 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 7</cname>
+		<item>
+			<title> 7 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bns7 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 8</cname>
+		<item>
+			<title> 8 HD flashtv</title>
+
+				<link>rtmp://89.248.172.57:443/liverepeater playpath=166331 pageUrl=http://biggestplayer.me/Sportsiptv token=#atd%#$ZH timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 9</cname>
+		<item>
+			<title> 9 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bn9 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 10</cname>
+		<item>
+			<title> 10 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bn10 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 11</cname>
+		<item>
+			<title> 11 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bnss11 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>Bein Sport 12</cname>
+		<item>
+			<title> 12 HD flashtv</title>
+
+				<link>rtmp://31.220.0.103:1935/live playpath=bn12 pageUrl=http://www.flashtv.co/Sportsiptv token=%ZZri(nKa@#Z timeout=10</link>
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>viasat SPORT 3</cname>
+		<item>
+			<title>SPORT 3 HD</title>
+
+				<link>http://viasatlive2-i.akamaihd.net/hls/live/202775/tv3plus/mastererki1.m3u8|X-Forwarded-For=81.224.210.98</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>viasat Canal9</cname>
+		<item>
+			<title>Canal9</title>
+
+				<link>http://viasatlive3-i.akamaihd.net/hls/live/206923/canal9dkebs/4arp.m3u8|X-Forwarded-For=81.224.210.98</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>viasat tv3sport1</cname>
+		<item>
+			<title>TV3 SPORT 1</title>
+
+				<link>http://viasatlive1-i.akamaihd.net/hls/live/207015/tv3sport1HD/2TmY8fEdOfL.m3u8|X-Forwarded-For=81.224.210.98</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>viasat tv3sport2</cname>
+		<item>
+			<title>TV3 SPORT 2</title>
+
+				<link>http://viasatlive5-i.akamaihd.net/hls/live/207018/tv3sport2HD/2h5416erG1v.m3u8|X-Forwarded-For=81.224.210.98</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>viasat Canal8</cname>
+		<item>
+			<title>canal8.dk</title>
+
+				<link>http://viasatlive1-i.akamaihd.net/hls/live/206922/canal8dkebs/4arp.m3u8|X-Forwarded-For=81.224.210.98</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+	
+
+		<cname>Al Alam</cname>
+		<item>
+			<title> 360p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>data-context-item-id="s*(.*?)\s</expres>
+				<page>http://www.youtube.com/user/AlalamTV2/featured</page>
+				</regex>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+	
+
+		<cname>Al Alam</cname>
+		<item>
+			<title> 720p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>data-context-item-id="s*(.*?)\s</expres>
+				<page>http://www.youtube.com/user/AlalamTV2/featured</page>
+				</regex>
+				
+		</item>
+	</streaminginfo>
+	
+
+	<streaminginfo>
+		<cname>Bein 1 FR</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/31.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein 2 FR</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/36.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 1</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/58.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 2</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/59.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 3</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/60.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 4</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/61.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 5</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/62.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 6</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/16.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 7</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/17.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 8</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/18.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 9</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/19.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 10</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/20.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 11</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/21.ch</link>
+		</item>
+	</streaminginfo> 
+
+	<streaminginfo>
+		<cname>Bein sport 12</cname>
+		<item>
+			<title>sportztv</title>
+			<link>http://www.sportztv.net/WorldSportsStreams1/WSStreams1/22.ch</link>
+		</item>
+	</streaminginfo> 
+	<streaminginfo>
+		<cname>Bein sport 1</cname>
+		<item>
+			<title>livehq</title>
+			<link>rtmp://213.136.71.43/live/beinsports1 timeout=15</link>
+		</item>
+	</streaminginfo>   
+
+<streaminginfo>
+		<cname>Bein sport 2</cname>
+		<item>
+			<title>livehq</title>
+			<link>rtmp://213.136.71.43/live/beinsports2 timeout=15</link>
+		</item>
+	</streaminginfo>   
+
+<streaminginfo>
+		<cname>Bein sport 3</cname>
+		<item>
+			<title>livehq</title>
+			<link>rtmp://213.136.71.43/live/beinsports3 timeout=15</link>
+		</item>
+	</streaminginfo>  
+<streaminginfo>
+		<cname>Bein sport 4</cname>
+		<item>
+			<title>livehq</title>
+			<link>rtmp://213.136.71.43/live/beinsports4 timeout=15</link>
+		</item>
+	</streaminginfo> 
+	
+
+</streamingInfos>
