@@ -33,8 +33,6 @@ def CATEGORIES():
 	addDir('مسلسلات سورية ولبنانية','http://www.panet.co.il/Ext/series.php?name=category&id=18&country=LB&page=',29,'',0,0)
 	addDir('مسلسلات مصرية','http://www.panet.co.il/Ext/series.php?name=category&id=19&country=NL&page=',29,'',0,0)
 	addDir('مسلسلات خليجية','http://www.panet.co.il/Ext/series.php?name=category&id=21&country=NL&page=',29,'',0,0)
-	addDir('افلام عربية ','http://www.panet.co.il/online/video/movies/P-0.html/',1,'',0,30)
-	addDir('افلام متحركة  ','http://www.panet.co.il/Ext/series.php?name=folder&id=257',29,'',0,0)
 	addDir('مسلسلات تركية','http://www.panet.co.il/Ext/series.php?name=category&id=17&country=TR&page=',29,'',0,0)
 	addDir('مسلسلات مكسيكية و عالمية','http://www.panet.co.il/Ext/series.php?name=category&id=20&country=NL&page=',29,'',0,0)
 	addDir('رسوم متحركة , برامج اطفال','http://www.panet.co.il/Ext/series.php?name=category&id=15&country=NL&page=',29,'',0,0)
