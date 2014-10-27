@@ -9,7 +9,7 @@ import re
 import httplib
 import time,itertools
 
-__settings__ = xbmcaddon.Addon(id='plugin.video.dardarkom')
+__settings__ = xbmcaddon.Addon(id='plugin.video.movies')
 __icon__ = __settings__.getAddonInfo('icon')
 __fanart__ = __settings__.getAddonInfo('fanart')
 __language__ = __settings__.getLocalizedString
